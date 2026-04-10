@@ -32,7 +32,7 @@ window = Tk()
 
 #Title, Icon, Transperency & Color
 window.title("Password Strength Analyzer")
-window.iconbitmap(r"F:\Python\PAdlock.ico")
+window.iconbitmap("PAdlock.ico") # path of your icon file
 window.attributes('-alpha',0.9)
 window.config(bg="black")
 
